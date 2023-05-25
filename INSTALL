@@ -8,7 +8,7 @@ To build LibreOffice Online you'll need to compile LibreOffice core first:
 1. Clone core repository
    git clone https://git.libreoffice.org/core
 2. ./autogen.sh --with-distro=LibreOfficeOnline
-3. make
+3. Make
 
 
 When you have a working build of LOKit you can build LOOL.
@@ -22,7 +22,7 @@ When you have a working build of LOKit you can build LOOL.
                --enable-silent-rules \
                --with-lokit-path=YOUR_INCLUDE_PATH_TO_CORE_BUILD \
                --with-lo-path=/opt/libreoffice
-4. make
+4. Make
 
 
 If you're interested in building a docker image, refer to the
