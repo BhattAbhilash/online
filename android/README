@@ -56,8 +56,8 @@ build the native parts on Windows.
    endif
   +endif
 
-   #
-   # Define Tools
+  #
+  # Define Tools
 
   # configure as above:
   ./configure --config=Android --no-samples --no-tests --omit=Crypto,NetSSL_OpenSSL,Zip,Data,Data/SQLite,Data/ODBC,Data/MySQL,MongoDB,PDF,CppParser,PageCompiler,JWT
@@ -109,8 +109,8 @@ build the native parts on Windows.
    endif
   +endif
    
-   #
-   # Define Tools
+  #
+  # Define Tools
 
   # configure
   ./configure --config=Android --no-samples --no-tests --omit=Crypto,NetSSL_OpenSSL,Zip,Data,Data/SQLite,Data/ODBC,Data/MySQL,MongoDB,PDF,CppParser,PageCompiler,JWT
@@ -199,7 +199,7 @@ to setup lldb to actually read & use them.
   command script import '/local/libreoffice/master-android/solenv/lldb/libreoffice/LO.py'
 
 From now on, you will be able to debug directly in the Android Studio
-debugger.  Happy debugging!
+debugger. Happy debugging!
 
 Note: to re-build your app with a newly compiled libnative-lo code - it is
 
